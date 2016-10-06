@@ -1,0 +1,34 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+input{
+	border: 1px solid;
+	height: 20px;
+	margin: 20px 0;
+}
+
+button{
+	cursor: pointer;
+	height: 20px;
+	padding: 0 4px;
+}
+#blockBox{
+	font-size: 0
+}
+.block{
+	margin: 2px;
+	display: inline-block;
+	list-style: none;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 22px;
+	color: white;
+	text-align: center;
+	background-color: red;
+	cursor: pointer;
+	transition: opacity 0.5s ease;
+	-webkit-transition: opacity 0.5s ease;
+}

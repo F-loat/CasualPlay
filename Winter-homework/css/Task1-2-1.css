@@ -1,0 +1,89 @@
+﻿body{
+	background: #eee;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#main {
+	margin: 100px auto;
+	width: 420px;
+	border: 1px solid #aaa;
+	padding: 0 12px;
+	background: white;
+}
+
+#Ti {
+	text-indent: 36px;
+}
+
+#title {
+	padding-left: 36px;
+}
+
+#title li {
+	display: inline-block;
+	border: 1px solid #eee;
+	font-family: "微软雅黑";
+	margin: 3px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.worst {
+	background: #D76064;
+}
+
+.worse {
+	background: #F09276;
+}
+
+.bad {
+	background: #FDE6C4;
+}
+
+.good {
+	background: #46BBB3;
+}
+
+.worst:hover {
+	background: rgba(215, 96, 100, 0.7);
+	transition: background 0.5s;
+}
+
+.worse:hover {
+	background: rgba(240, 146, 118, 0.7);
+	transition: background 0.5s;
+}
+
+.bad:hover {
+	background: rgba(253, 230, 196, 0.7);
+	transition: background 0.5s;
+}
+
+.good:hover {
+	background: rgba(70, 187, 179, 0.7);
+	transition: background 0.5s;
+}
+
+.month {
+	width: 40px;
+	text-align: left;
+}
+
+#sheet li {
+	height: 30px;
+	font-size: 18px
+}
+
+#sheet span {
+	height: 10px;
+	display: inline-block;
+}

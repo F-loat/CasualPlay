@@ -1,0 +1,519 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	font-family: "微软雅黑";
+}
+
+img {
+	border: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a:link {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+#header {
+	height: 81px;
+	background: #005FAF;
+}
+
+#mnav {
+	width: 1200px;
+	height: 100%;
+	background: url(../img/logo.jpg) left no-repeat;
+	color: white;
+}
+
+#turn {
+	font-size: 12px;
+	float: left;
+	line-height: 81px;
+	margin: 0 20px 0 310px;
+}
+
+.mntext {
+	font-size: 16px;
+	float: left;
+	margin: 30px 13px;
+	padding: 0 12px;
+	background: url(../img/navicon.jpg) right no-repeat;
+	cursor: pointer;
+}
+
+#slipbg {
+	background-color: #005FAF;
+	height: 200px;
+	display: none;
+	clear: both;
+}
+
+#slip {
+	width: 1200px;
+}
+
+#slip img {
+	width: 280px;
+	height: 192px;
+	float: left;
+	margin-right: 70px;
+}
+
+#slip button {
+	background: none;
+	border: none;
+	color: white;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	float: left;
+	margin-top: 4px;
+	margin-right: 22px;
+	cursor: pointer;
+}
+
+#slip ul {
+	width: 114px;
+	float: left;
+	color: white;
+	font-size: 12px;
+	line-height: 24px;
+}
+
+#snavbg {
+	background: url(../img/navbg.jpg);
+}
+
+#snav {
+	width: 1200px;
+	height: 50px;
+	font-size: 12px;
+	position: relative;
+}
+
+#snav>ul>li {
+	float: left;
+	line-height: 30px;
+	margin-top: 12px;
+	cursor: pointer;
+}
+
+#apply {
+	margin-right: 20px;
+	padding: 0 12px;
+	background: url(../img/snavicon.jpg) no-repeat right;
+}
+
+.morelk {
+	width: 100px;
+	position: absolute;
+	top: 40px;
+	left: -10px;
+	background-color: #4489CA;
+	z-index: 1;
+	border-top: 1px solid #739bcc;
+	display: none;
+}
+
+.morelk li {
+	width: 98px;
+	text-align: center;
+	line-height: 26px;
+	border: 1px solid #739bcc;
+	border-top: none;
+	margin: 0;
+}
+
+#BUAA123 a {
+	color: #eb7a00;
+	margin-right: 16px;
+}
+
+#snav form {
+	float: left;
+	margin: 0 55px 0 4px;
+	position: relative;
+	top: -4px;
+}
+
+#snav input {
+	width: 132px;
+	height: 22px;
+	background: #36454C;
+	border: 1px solid #6C7477;
+	border-right: none;
+}
+
+#snav button {
+	width: 25px;
+	height: 24px;
+	background-color: #36454C;
+	border: 1px solid #6C7477;
+	border-left: none;
+	border-top: none;
+	cursor: pointer;
+	background: url(../img/searchsub.jpg) no-repeat;
+	position: relative;
+	top: 8px;
+	left: -4px;
+}
+
+#mail {
+	margin-right: 20px;
+	border-bottom: 3px solid #338EDD;
+	padding: 0 5px;
+}
+
+.sntext {
+	margin: 0 18px;
+	padding: 0 5px;
+}
+
+#ulink {
+	margin-left: 12px;
+	padding: 0 12px;
+	background: url(../img/snavicon.jpg) no-repeat right;
+}
+
+#mainbg {
+	height: 538px;
+	background: url(../img/bg.jpg) no-repeat center;
+	background-color: #eee;
+}
+
+#main {
+	width: 1200px;
+	position: relative;
+}
+
+#maleft {
+	position: absolute;
+	top: 50px;
+	left: 16px;
+}
+
+#mltitle {
+	width: 240px;
+	margin: 0;
+	position: relative;
+	top: 8px;
+}
+
+.mltnormal {
+	width: 68px;
+	height: 27px;
+	background: #0060B0;
+	color: #7AA7CD;
+	float: left;
+	margin-right: 1px;
+	display: block;
+	font-size: 12px;
+	line-height: 27px;
+	text-align: center;
+	cursor: pointer;
+}
+
+#mltext {
+	width: 330px;
+	height: 367px;
+	background: #001c58;
+	position: absolute;
+	top: 34px;
+}
+
+.mlx {
+	color: #a2c8ed;
+	position: relative;
+}
+
+.mlxt {
+	width: 285px;
+	height: 70px;
+	margin-top: 30px;
+}
+
+.mlxt img {
+	float: left;
+	margin-right: 10px;
+}
+
+.mlxt p {
+	font-size: 18px;
+	color: white;
+}
+
+.mlxt a {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.mlx>li {
+	width: 285px;
+	height: 40px;
+	border-bottom: 1px solid #516E9A;
+	;
+}
+
+.mlx>li>p {
+	color: #a2c8ed;
+	font-size: 18px;
+	float: left;
+	line-height: 40px;
+	margin-right: 10px;
+}
+
+.mlx>li>a {
+	font-size: 12px;
+	line-height: 40px;
+	float: left;
+}
+
+.more {
+	width: 50px;
+	height: 20px;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+	background: #eb7a00;
+	position: relative;
+	top: 12px;
+	left: 116px;
+}
+
+#maright {
+	position: absolute;
+	top: 84px;
+	left: 400px;
+}
+
+#banner {
+	width: 808px;
+	overflow: hidden;
+}
+
+#banner li {
+	float: left;
+}
+
+#imgs {
+	width: 4848px;
+	position: relative;
+}
+
+#bnbottom {
+	width: 808px;
+	height: 85px;
+	position: relative;
+	top: -51px;
+}
+
+#bntitle {
+	width: 325px;
+	height: 48px;
+	background: rgba(0, 0, 0, 0.3);
+	float: left;
+	margin: 0;
+	font-size: 14px;
+	color: #ffbb05;
+	line-height: 48px;
+	float: left;
+	left: -315px;
+	text-indent: 10px;
+}
+
+#bndate {
+	width: 70px;
+	height: 85px;
+	background: #4489ca;
+	float: left;
+	color: #ffbb05;
+	text-align: center;
+	font-size: 12px
+}
+
+#bndate h {
+	font-size: 24px
+}
+
+#bndate p {
+	margin-bottom: 12px;
+}
+
+#bnsimgs {
+	width: 405px;
+	height: 60px;
+	background: #313131;
+	float: left;
+	margin-top: 25px;
+	margin-left: 8px;
+	color: #ffbb05;
+	font-size: 12px;
+	line-height: 28px;
+	text-align: center;
+}
+
+#bnsimgs>ul>li {
+	margin: 0 8px;
+	float: left;
+	cursor: pointer;
+	width: 51px;
+}
+
+#bnsimgs img {
+	border: 3px solid white;
+}
+
+#bnsimgs p {
+	display: none;
+	line-height: 14px;
+}
+
+.overtitle1 {
+	color: #ffbb05;
+	position: relative;
+	top: -136px;
+	width: 210px;
+	height: 40px;
+	border: 4px solid rgba(255, 255, 255, 0.9);
+	background: rgba(20, 20, 20, 0.7);
+	display: none;
+}
+
+.overtitle2 {
+	color: #ffbb05;
+	position: relative;
+	top: -136px;
+	left: -164px;
+	width: 210px;
+	height: 40px;
+	border: 4px solid rgba(255, 255, 255, 0.9);
+	background: rgba(20, 20, 20, 0.7);
+	display: none;
+}
+
+.ott {
+	line-height: 40px;
+	border-right: 2px solid rgba(255, 255, 255, 0.7);
+	width: 60px;
+}
+
+.ota {
+	width: 130px;
+	line-height: 16px;
+	padding: 4px 8px;
+	text-align: left;
+}
+
+#fnavbg {
+	height: 115px;
+	background: url(../img/fnavbg.jpg);
+}
+
+#fnav {
+	width: 1200px;
+}
+
+#fnav ul {
+	float: left;
+	margin: 12px 40px 0 40px;
+}
+
+.fntitle {
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	line-height: 24px;
+}
+
+#fnav a {
+	font-size: 12px;
+	line-height: 16px;
+}
+
+#footer {
+	width: 1200px;
+	height: 55px;
+	font-size: 12px;
+	line-height: 55px;
+}
+
+#fotl {
+	width: 890px;
+	background: url(../img/brand.png) no-repeat right;
+	float: left;
+	color: #0e5691;
+}
+
+#fotr a {
+	color: #0e5691;
+	float: right;
+	margin-right: 30px;
+}
+
+#mapcard {
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	right: 2px;
+	bottom: 2px;
+	background-color: #666;
+	text-align: center;
+	font-size: 14px;
+	line-height: 20px;
+	color: white;
+	cursor: pointer;
+}
+
+#mc {
+	margin: 0;
+	position: fixed;
+	bottom: 43px;
+	right: 5px;
+	background: white;
+	border: 1px solid #c7c7c7;
+	display: none;
+	color: black;
+	text-align: left;
+}
+
+#mctitle {
+	background: #f1f1f1;
+	height: 23px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 23px;
+	font-weight: bold;
+}
+
+#mc ul {
+	width: 500px;
+	padding: 4px 10px;
+}
+
+#mc li {
+	font-size: 12px;
+	line-height: 17px;
+}
+
+#map {
+	width: 500px;
+	height: 360px;
+	
+}

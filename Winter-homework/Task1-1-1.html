@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>猜拳小游戏</title>
+		<link rel="stylesheet" type="text/css" href="css/Task1-1-1.css" />
+		<link rel="stylesheet" type="text/css" href="css/back.css" />
+	</head>
+
+	<body>
+		<div id="time">
+			共进行了0次游戏，取得 0 次胜利。
+		</div>
+		<div id="Options">
+			<img id="jiandao" onclick="result('jiandao')" src="imgs/jiandao.png" />
+			<img id="shitou" onclick="result('shitou')" src="imgs/shitou.png" />
+			<img id="bu" onclick="result('bu')" src="imgs/bu.png" />
+		</div>
+		<div id="result">
+			<img id="mine" onclick="again()">
+			<img id="ai" onclick="again()">
+			<div id="show">
+			</div>
+			<div id="again" onclick="again()">
+				 再来一次
+			</div>
+		<div id="left">
+			YOU
+		</div>
+		<div id="right">
+			AI
+		</div>
+		</div>
+		<div id="back">
+			<a href="index.html">返回导航</a>
+		</div>
+		<script type="text/javascript" src="js/Task1-1-1.js"></script>
+	</body>
+
+</html>

@@ -1,0 +1,71 @@
+img{
+	border: none;
+}
+
+body{
+	background: url(../imgs/background.png) repeat-y;
+	background-size: 100%;
+}
+
+#time {
+	font-size: 18px;
+	width: 400px;
+	margin: 0 auto;
+	position: relative;
+	top: 50px;
+	text-align: center;
+}
+
+#Options {
+	width: 580px;
+	margin: 15% auto;
+}
+
+#shitou {
+	margin: 0 30px;
+}
+#result{
+	display: none;
+	width: 580px;
+	margin: 15% auto;
+	position: relative;
+}
+#result img{
+	margin: 0 50px;
+}
+
+#again {
+	width: 110px;
+	height: 34px;
+	text-align: center;
+	line-height: 32px;
+	font-family: "微软雅黑";
+	font-size: 24px;
+	color: #000;
+	cursor: pointer;
+	position: relative;
+	left: 40%;
+	top: 50px;
+}
+#again:hover {
+	color: #fff;
+	background-color: rgba(181,204,124,0.7);
+	transition: background-color 0.5s;
+}
+#show{
+	position: absolute;
+	width: 30px;
+	font-size: 18px;
+	left: 280px;
+	top: 60px;
+}
+#left{
+	font-size: 50px;
+	position: fixed;
+	left: 10%;
+}
+#right{
+	font-size: 50px;
+	position: fixed;
+	right: 10%;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Task18</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+
+	<body>
+		<form>
+			<input id="inputNumber" type="number" value="1" />
+			<button type="button" onclick="addBlock('left')">左侧入</button>
+			<button type="button" onclick="addBlock('right')">右侧入</button>
+			<button type="button" onclick="removeBlock(eblock[0],'i')">左侧出</button>
+			<button type="button" onclick="removeBlock(eblock[eblock.length-1],'i')">右侧出</button>
+		</form>
+		<ul id="blockBox" onclick="removeBlock()">
+			<li class="block">1</li>
+			<li class="block">2</li>
+			<li class="block">3</li>
+		</ul>
+		<script type="text/javascript" src="js/handle.js"></script>
+	</body>
+
+</html>

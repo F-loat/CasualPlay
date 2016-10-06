@@ -1,0 +1,69 @@
+#apply a:hover {
+	text-decoration: none;
+}
+
+#mail a:hover {
+	text-decoration: none;
+}
+
+#apply:hover .morelk {
+	display: block;
+}
+
+.morelk:hover {
+	display: block;
+}
+
+.morelk li:hover {
+	background-color: #014886;
+}
+
+.morelk a:hover {
+	text-decoration: none;
+}
+
+.sntext:hover {
+	border-bottom: 3px solid #338EDD;
+}
+
+.sntext a:hover {
+	text-decoration: none;
+}
+
+#ulink a:hover {
+	text-decoration: none;
+}
+
+#ulink:hover .morelk {
+	display: block;
+}
+
+#bnsimgs>ul>li:hover .overtitle1 {
+	display: block;
+}
+
+#bnsimgs>ul>li:hover .overtitle2 {
+	display: block;
+}
+
+.mltvary {
+	width: 96px;
+	height: 35px;
+	margin: 0px;
+	color: white;
+	font-size: 14px;
+	line-height: 35px;
+	background: #001c58;
+	text-align: center;
+	position: relative;
+	top: -8px;
+}
+
+.foc {
+	position: relative;
+	top: -22px;
+}
+
+#mapcard:hover #mc{
+	display: block;
+}

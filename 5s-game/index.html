@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Five Seconds</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+				border: none;
+				font-size: 0;
+			}
+			html,body{
+				height: 100%;
+			}
+			h4{
+				color: white;
+				font-size: 18px
+			}
+			#level{
+				position: absolute;
+				top: 10px;
+				left: 16px;
+			}
+			#help{
+				position: absolute;
+				top: 10px;
+				left: 50%;
+				transform: translate(-50%,0);
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body onkeydown="moveplane(event)" onkeyup="clearmove(event)">
+		<h4 id="level">第1关</h4>
+		<h4 id="help">方向键移动躲避，每5秒增加一个粒子</h4>
+		<canvas id="canvas"></canvas>
+		<script type="text/javascript" src="canvas.js"></script>
+	</body>
+</html>

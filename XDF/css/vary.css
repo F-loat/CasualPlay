@@ -1,0 +1,205 @@
+.color-change:hover {
+	color: #38bca4;
+}
+
+.pointer {
+	cursor: pointer
+}
+
+.cities:hover {
+	background: #31a894;
+	color: white;
+}
+
+#mleft li:hover {
+	background-color: white;
+	color: #38bca4;
+}
+
+#nav2 li:hover {
+	background-color: #EDF6F4;
+}
+
+#mleft ul li ul {
+	display: none;
+	position: absolute;
+	left: 130px;
+	top: 223px;
+	width: 625px;
+	height: 378px;
+	background: white;
+	border: solid 1px #ddd;
+	border-left: 0;
+}
+
+#mleft ul li:hover ul {
+	display: block;
+}
+
+#mleft ul li:hover a {
+	background-color: white;
+	color: #38bca4;
+}
+
+#mleft ul li:hover .hidtext a {
+	color: #a5a5a5;
+}
+
+#mleft ul li ul li {
+	margin-left: 0px;
+	line-height: 12px;
+}
+
+#mleft ul li ul li a {
+	font-size: 12px
+}
+
+#jtnews ul {
+	display: none;
+	position: absolute;
+	left: 761px;
+	top: 481px;
+	width: 220px;
+	height: 120px;
+	background: white;
+}
+
+#jtnews:hover ul {
+	display: block;
+}
+
+#jtnews:hover {
+	background-color: white;
+	border: solid 1px #e8e8e8;
+	line-height: 33px;
+	width: 79px;
+}
+
+#yhnews:hover {
+	background-color: white;
+}
+
+#infornav ul li ul {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 1178px;
+	width: 744px;
+	height: 600px;
+	background: white;
+}
+
+#region:hover ul {
+	display: block;
+}
+
+#region:hover i {
+	background: url(../img/downv.png) no-repeat 3px 5px;
+}
+
+#nav c ul {
+	display: none;
+	position: absolute;
+	left: 615px;
+	top: 30px;
+	width: 370px;
+	height: 270px;
+	background: white;
+	border: solid 1px #ddd;
+	border-top: 0;
+}
+
+#nav c:hover ul {
+	display: block;
+}
+
+#nav c:hover >a {
+	background: white;
+	border: 0;
+	border-top: solid 1px #ddd;
+	height: 29px;
+	line-height: 29px;
+}
+
+#nav c:hover i {
+	background: url(../img/downv.png) no-repeat 3px 12px;
+}
+
+#shopcar>ul {
+	display: none;
+	position: absolute;
+	left: 634px;
+	top: 30px;
+	width: 360px;
+	height: 86px;
+	background: white;
+	border: solid 1px #ddd;
+	border-top: 0;
+}
+
+#shopcar:hover>ul {
+	display: block;
+}
+
+#shopcar:hover {
+	background-color: white;
+	border: 0;
+	border-top: solid 1px #ddd;
+	height: 29px;
+	line-height: 29px;
+}
+
+#le3>ul>li:hover {
+	padding: 8px 13px 9px 13px;
+	border-top: solid 2px #38bca4;
+	border-left: solid 1px #00B1A2;
+	border-right: solid 1px #00B1A2;
+	border-bottom: solid 1px white;
+	line-height: 17px;
+}
+
+#le3>ul>li:hover .le3p {
+	height: 17px;
+	line-height: 16px;
+	color: #38bca4;
+}
+
+#le3>ul>li:hover .le3t {
+	height: 207px;
+	display: block;
+	z-index: 1;
+}
+
+#le3>ul>li:hover .le3t a {
+	line-height: 36px;
+}
+
+#tip1 div {
+	display: none;
+}
+
+#tip1:hover div {
+	display: block;
+}
+
+#tip2 div {
+	display: none;
+}
+
+#tip2:hover div {
+	display: block;
+}
+
+.translate:hover {
+	transition: all 0.3s;
+	transform: translateX(8px);
+}
+
+.hotadver a img:hover {
+	-webkit-transition: -webkit-transform 0.4s ease;
+	-moz-transition: -moz-transform 0.4s ease;
+	-ms-transition: -ms-transform 0.4s ease;
+	transform: scale(1.04, 1.04);
+	-ms-transform: scale(1.04, 1.04);
+	-webkit-transform: scale(1.04, 1.04);
+}
