@@ -1,0 +1,49 @@
+{
+  "name": "webtorrent-demo",
+  "version": "0.0.1",
+  "browserify": {
+    "transform": [
+      "brfs"
+    ]
+  },
+  "dependencies": {
+    "brfs": "^1.4.3",
+    "compression": "^1.0.11",
+    "cors": "^2.7.1",
+    "create-torrent": "^3.9.1",
+    "downgrade": "^1.0.0",
+    "express": "^4.8.8",
+    "moment": "^2.10.6",
+    "p2p-graph": "^1.0.0",
+    "parse-torrent": "^5.0.1",
+    "prettier-bytes": "^1.0.3",
+    "throttleit": "^1.0.0",
+    "webtorrent": "^0.98.19"
+  },
+  "devDependencies": {
+    "browserify": "^14.0.0",
+    "nodemon": "^1.2.1",
+    "run-parallel-limit": "^1.0.3",
+    "standard": "^10.0.3",
+    "watchify": "^3.1.2"
+  },
+  "keywords": [
+    "dplayer",
+    "webtorrent"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/F-loat/webtorrent-demo.git"
+  },
+  "scripts": {
+    "build": "browserify client > static/bundle.js",
+    "create": "node server/create",
+    "start": "node server",
+    "test": "standard",
+    "watch": "npm run watch-js & DEBUG=webtorrent*,bittorrent* nodemon server",
+    "watch-js": "watchify client -o static/bundle.js -dv"
+  }
+}

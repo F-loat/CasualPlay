@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>WebTorrent</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://unpkg.com/dplayer@1.11.0/dist/DPlayer.min.css">
+  <link rel="stylesheet" href="/style.css" charset="utf-8">
+
+  <body>
+    <div id="hero">
+      <div id="progressBar"></div>
+      <div id="videoWrap">
+        <div id="dplayer"></div>
+      </div>
+      <div id="status">
+        <code id="numPeers">0 peers</code>
+        <code id="downloaded"></code> of 
+        <code id="total"></code> — 
+        <span id="remaining"></span>
+      </div>
+      <div id="svgWrap">
+        <div class="torrent-graph"></div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/dplayer@1.11.0/dist/DPlayer.min.js"></script>
+    <script>
+      var dp = new DPlayer({
+        container: document.getElementById('dplayer'),
+        screenshot: true,
+      });
+    </script>
+    <script src="/bundle.js"></script>
+  </body>
+</head>
+
+</html>
